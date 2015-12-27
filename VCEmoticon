@@ -1,0 +1,93 @@
+//<![CDATA[
+
+a = document.getElementsByTagName('LABEL');
+if(a) {
+	for(i=0; i < a.length; i++) {
+		_str = a.item(i).innerHTML.replace(/:\)\)/gi, "<img src='http://3.bp.blogspot.com/-TbtKnQelN58/Vj1pcSrcuzI/AAAAAAAADXM/PzNVuWpa7MA/s1600/01.png' height='30' width='30' class='smiley'/>");
+		_str = _str.replace(/:d/gi, "<img src='http://4.bp.blogspot.com/-re4PDvyRIPo/Vj1pcvpMbyI/AAAAAAAADXQ/xlLmu_reISc/s1600/02.png' height='30' width='30' class='smiley'/>");
+		_str = _str.replace(/\;\)/gi, "<img src='http://2.bp.blogspot.com/-gESf35gCyx4/Vj1pcgtVEfI/AAAAAAAADXU/ih2CWXgZes8/s1600/03.png' height='30' width='30' class='smiley'/>");
+		_str = _str.replace(/:p/gi, "<img src='http://2.bp.blogspot.com/-UC0l5MwMEzs/Vj1pde7ZG3I/AAAAAAAADXk/sADG9tDGuuQ/s1600/04.png' height='30' width='30' class='smiley'/>");
+		_str = _str.replace(/:\(\(/gi, "<img src='http://3.bp.blogspot.com/-tEW6N4yKzTw/Vj1pdv9SGII/AAAAAAAADXs/V32uDosDfNQ/s1600/05.png' height='30' width='30' class='smiley'/>");
+		_str = _str.replace(/:\)/gi, "<img src='http://1.bp.blogspot.com/-ICxdraE7CjM/Vj1pdo8p6cI/AAAAAAAADXw/PmDoQzqH_vw/s1600/06.png' height='30' width='30' class='smiley'/>");
+		_str = _str.replace(/:\(/gi, "<img src='http://3.bp.blogspot.com/-WZAiyhQRXLo/Vj1peY9OqkI/AAAAAAAADX8/OsrZhkQcF80/s1600/07.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:\|/gi, "<img src='http://2.bp.blogspot.com/-KXCbx9bZTdY/Vj1peuCbRXI/AAAAAAAADYE/3_OAGgPA6Jg/s1600/08.png' height='30' width='30' class='smiley'/>"); 
+		_str = _str.replace(/\=\)\)/ig,"<img src='http://4.bp.blogspot.com/-5_BH9sdeAck/Vj1pe0NEs3I/AAAAAAAADYQ/X7RZzIg8U1E/s1600/09.png' height='30' width='30' class='smiley'/>")
+		a.item(i).innerHTML = _str;
+	}
+}
+
+a = document.getElementById('comments');
+if(a) {
+	b = a.getElementsByTagName("DD");
+	for(i=0; i < b.length; i++) {
+            if (b.item(i).getAttribute('CLASS') == 'cm_entry') {
+                _str = b.item(i).innerHTML.replace(/:\)\)/gi, "<img src='http://1.bp.blogspot.com/-OVgIxPw4K1I/Vj1pfVWtffI/AAAAAAAADYU/XxgNBY7G0TA/s1600/10.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:\)\]/gi, "<img src='http://2.bp.blogspot.com/-hhuHnjkTEqE/Vj1pfmgtp0I/AAAAAAAADYc/o8Gi5-Opf3E/s1600/11.png' height='30' width='30' class='smiley'/>");
+		_str = _str.replace(/;\)\)/gi, "<img src='http://1.bp.blogspot.com/-N-WZVz7RDo4/Vj1pfoQkknI/AAAAAAAADb8/Z5vOdVfrPdk/s1600/12.png' height='30' width='30' class='smiley'/>");
+		_str = _str.replace(/;\;\)/gi, "<img src='http://4.bp.blogspot.com/-iqXqKbqc1Sc/Vj1pgOPY-yI/AAAAAAAADYo/NP5Ewt0IMwA/s1600/13.png' height='30' width='30' class='smiley'/>");
+		_str = _str.replace(/:d/gi, "<img src='http://2.bp.blogspot.com/-eDobGAL5MOs/Vj1pgflkuyI/AAAAAAAADZU/kBp2IvP7Lms/s1600/14.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/\;\)/gi, "<img src='http://1.bp.blogspot.com/-ccdZUU1Fi8k/Vj1pgjm0uyI/AAAAAAAADY4/-3ybImx_ZOY/s1600/15.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:p/gi, "<img src='http://3.bp.blogspot.com/-EQr_SkEw0s4/Vj1pg6zk2gI/AAAAAAAADY8/jfOVnzqYoNY/s1600/16.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:\(\(/gi, "<img src='http://3.bp.blogspot.com/-Acgh10fxesI/Vj1pheedhNI/AAAAAAAADbc/kMcfrTzVqEM/s1600/17.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:\)/gi, "<img src='http://2.bp.blogspot.com/-2zl-XTxW4MA/Vj1phe4Of3I/AAAAAAAADZE/A0xdYo2c-dU/s1600/18.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:\(/gi, "<img src='http://4.bp.blogspot.com/-W0Gn9c0Wd8o/Vj1ph6b2QaI/AAAAAAAADZY/kQI70LDckCI/s1600/19.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:x/gi, "<img src='http://3.bp.blogspot.com/-Q04G8fmUGeQ/Vj1piCuxOPI/AAAAAAAADZg/dwjxOQDMqtM/s1600/20.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/=\(\(/gi, "<img src='http://1.bp.blogspot.com/-H2BwAAgkPHo/Vj1pifPBFOI/AAAAAAAADZk/-uxYsOsyVZI/s1600/21.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:\-\o/gi, "<img src='http://2.bp.blogspot.com/-VV0VLKRByMY/Vj1pilocZaI/AAAAAAAADZw/ryrLIqJLUSA/s1600/22.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:-\//gi, "<img src='http://3.bp.blogspot.com/-u76lVfqM_DQ/Vj1pjLzhTGI/AAAAAAAADaY/Wgo_qst9NRY/s1600/23.png' height='30' width='30' class='smiley'/>"); 
+                _str = _str.replace(/:-\*/gi, "<img src='http://3.bp.blogspot.com/-pNws7P8roro/Vj1pjW-Uc0I/AAAAAAAADZ4/3v_9Y0p8RZM/s1600/24.png' height='30' width='30' class='smiley'/>"); 
+		_str = _str.replace(/:\|/gi, "<img src='http://2.bp.blogspot.com/-kxLtZQ-dF3g/Vj1pjjGbq-I/AAAAAAAADaI/8hpBbfTjky4/s1600/25.png' height='30' width='30' class='smiley'/>"); 
+                _str = _str.replace(/8-\}/gi, "<img src='http://1.bp.blogspot.com/-V8uwAbh_ejQ/Vj1pjzqcscI/AAAAAAAADaE/z4JyQhnv1Bg/s1600/26.png' height='30' width='30' class='smiley'/>"); 
+                _str = _str.replace(/9-\}/gi, "<img src='http://3.bp.blogspot.com/-XE_oUp00jw4/Vj1pmah1GDI/AAAAAAAADbE/k-_fXT495P0/s1600/34.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/10-\}/gi, "<img src='http://2.bp.blogspot.com/-NW8SoGA1uNo/Vj1pm18jGxI/AAAAAAAADbI/AM4OtZ4-9Cg/s1600/35.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/11-\}/gi, "<img src='http://3.bp.blogspot.com/-l_yhX8nKFYg/Vj1pnvsIHjI/AAAAAAAADbk/ysudYffiMvM/s1600/36.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/12-\}/gi, "<img src='http://3.bp.blogspot.com/-zH_vCRfj5rU/Vj1pnweW0uI/AAAAAAAADb0/-DGclUjSzbY/s1600/37.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/13-\}/gi, "<img src='http://3.bp.blogspot.com/-WRQzNkijeAc/Vj1poCQqiKI/AAAAAAAADbo/4PkqcCS8rSo/s1600/38.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/14-\}/gi, "<img src='http://2.bp.blogspot.com/-s68FJc1nETE/Vj1poa-SFaI/AAAAAAAADbw/BzCAGNnveuY/s1600/39.png' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/15-\}/gi, "<img src='http://3.bp.blogspot.com/-fLghWM-K_Hs/Vj1poikElrI/AAAAAAAADb4/oVKKAGUBtPI/s1600/40.png' height='30' width='30' class='smiley'/>");
+		_str = _str.replace(/~x\(/gi, "<img src='http://4.bp.blogspot.com/-MEYqSkfKR8I/Vj1pkc-IobI/AAAAAAAADbY/IoORQo-PS54/s1600/27.png' height='30' width='30' class='smiley'/>");
+		_str = _str.replace(/:-t/gi, "<img src='http://2.bp.blogspot.com/--GfPs2XhJJE/Vj1pkUXQqII/AAAAAAAADaQ/MvKia65o6Ac/s1600/28.png' height='30' width='30' class='smiley'/>");  
+                _str = _str.replace(/b-\(/gi, "<img src='http://4.bp.blogspot.com/-h-vAMFTh7uw/Vj1pk_jMaQI/AAAAAAAADag/1V3J7-9PudA/s1600/29.png' height='30' width='30' class='smiley'/>"); 
+		_str = _str.replace(/:-\L/gi, "<img src='http://4.bp.blogspot.com/-d13gUw9kjdo/Vj1plVZoZ_I/AAAAAAAADao/9A9KF4iIEM4/s1600/30.png' height='30' width='30' class='smiley'/>"); 
+		_str = _str.replace(/x\(/gi, "<img src='http://3.bp.blogspot.com/-TNb2sZLGTxM/Vj1pleNTR3I/AAAAAAAADas/oYr5pBLRgpw/s1600/31.png' height='30' width='30' class='smiley'/>"); 
+		_str = _str.replace(/:-\q/gi, "<img src='http://2.bp.blogspot.com/-vt_N0DX6fUQ/Vj1pl9I8lFI/AAAAAAAADa4/jDBa3u2D-B0/s1600/32.png' height='30' width='30' class='smiley'/>"); 
+		_str = _str.replace(/\=\)\)/ig,"<img src='http://4.bp.blogspot.com/-cajZGdJllHU/Vj1pmVmTZEI/AAAAAAAADbA/RsraYktaKk4/s1600/33.png' height='30' width='30' class='smiley'/>")
+                b.item(i).innerHTML = _str;
+            }
+	}
+}
+
+a = document.getElementById('comments');
+if(a) {
+	c = a.getElementsByTagName("DD");
+	for(i=0; i < c.length; i++) {
+            if (c.item(i).getAttribute('CLASS') == 'cm_entry_a') {
+                _str = c.item(i).innerHTML.replace(/:\)\)/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/70bff581.gif' height='30' width='30' class='smiley'/>");
+		_str = _str.replace(/:\)\]/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/037.gif' height='30' width='30' class='smiley'/>");                
+		_str = _str.replace(/;\)\)/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/069.gif' height='30' width='30' class='smiley'/>");
+		_str = _str.replace(/;\;\)/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/th_104_.gif' height='30' width='30' class='smiley'/>");
+		_str = _str.replace(/:d/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/th_113_.gif' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/\;\)/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/4412144b.gif' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:p/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/th_101_.gif' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:\(\(/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/33c4b951.gif' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:\)/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/th_059_.gif' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:\(/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/875328cc.gif' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:x/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/6f428754.gif' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/=\(\(/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/th_087_.gif' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:\-\o/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/e111de78.gif' height='30' width='30' class='smiley'/>");
+                _str = _str.replace(/:-\//gi, "<img src='http://www.cute-factor.com/images/smilies/onion/efb50fe2.gif' height='30' width='30' class='smiley'/>"); 
+                _str = _str.replace(/:-\*/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/th_106_.gif' height='30' width='30' class='smiley'/>"); 
+		_str = _str.replace(/:\|/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/023.gif' height='30' width='30' class='smiley'/>"); 
+		_str = _str.replace(/8-\}/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/5c745924.gif' height='30' width='30' class='smiley'/>"); 
+		_str = _str.replace(/~x\(/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/042.gif' height='30' width='30' class='smiley'/>");
+		_str = _str.replace(/:-t/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/87a4e689.gif' height='30' width='30' class='smiley'/>");  
+                _str = _str.replace(/b-\(/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/047352f3.gif' height='30' width='30' class='smiley'/>"); 
+		_str = _str.replace(/:-\L/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/th_116_.gif' height='30' width='30' class='smiley'/>"); 
+		_str = _str.replace(/x\(/gi, "<img src='http://www.cute-factor.com/images/smilies/onion/4d6161fd.gif' height='30' width='30' class='smiley'/>"); 
+		_str = _str.replace(/:-\q/ig,"<img src='http://www.cute-factor.com/images/smilies/onion/d5f02ecd.gif' height='30' width='30' class='smiley'/>")
+		_str = _str.replace(/\=\)\)/ig,"<img src='http://www.cute-factor.com/images/smilies/onion/071.gif' height='30' width='30' class='smiley'/>")
+                c.item(i).innerHTML = _str;
+            }
+	}
+}
+//]]>
